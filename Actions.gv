@@ -1,0 +1,81 @@
+digraph Actions {
+	node [shape=plaintext]
+rankdir = LR
+	action1 [label=<
+        <TABLE BORDER="0" CELLBORDER="1"
+        CELLSPACING="0" CELLPADDING="4">
+        <TR>
+        <TD COLSPAN="2" bgcolor="grey" >Action
+        3</TD>
+        </TR>
+        <TR>
+        <TD>Score</TD>
+        <TD>0.095</TD>
+        </TR>
+        </TABLE>>]
+	action2 [label=<
+        <TABLE BORDER="0" CELLBORDER="1"
+        CELLSPACING="0" CELLPADDING="4">
+        <TR>
+        <TD COLSPAN="2" bgcolor="grey" >Action
+        1</TD>
+        </TR>
+        <TR>
+        <TD>Score</TD>
+        <TD>0.117</TD>
+        </TR>
+        </TABLE>>]
+	action0 [label=<
+        <TABLE BORDER="0" CELLBORDER="1"
+        CELLSPACING="0" CELLPADDING="4">
+        <TR>
+        <TD COLSPAN="2" bgcolor="grey" >Action
+        2</TD>
+        </TR>
+        <TR>
+        <TD>Score</TD>
+        <TD>0.071</TD>
+        </TR>
+        </TABLE>>]
+	action5 [label=<
+        <TABLE BORDER="0" CELLBORDER="1"
+        CELLSPACING="0" CELLPADDING="4">
+        <TR>
+        <TD COLSPAN="2" bgcolor="grey" >Action
+        5</TD>
+        </TR>
+        <TR>
+        <TD>Score</TD>
+        <TD>0.35</TD>
+        </TR>
+        </TABLE>>]
+	action3 [label=<
+        <TABLE BORDER="0" CELLBORDER="1"
+        CELLSPACING="0" CELLPADDING="4">
+        <TR>
+        <TD COLSPAN="2" bgcolor="grey" >Action
+        6</TD>
+        </TR>
+        <TR>
+        <TD>Score</TD>
+        <TD>0.155</TD>
+        </TR>
+        </TABLE>>]
+	action4 [label=<
+        <TABLE BORDER="0" CELLBORDER="1"
+        CELLSPACING="0" CELLPADDING="4">
+        <TR>
+        <TD COLSPAN="2" bgcolor="grey" >Action
+        4</TD>
+        </TR>
+        <TR>
+        <TD>Score</TD>
+        <TD>0.212</TD>
+        </TR>
+        </TABLE>>]
+	action1 -> action0
+	action2 -> action1
+	action3 -> action2
+	action4 -> action3
+	action5 -> action4
+}
