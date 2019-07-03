@@ -39,7 +39,8 @@ def SpreadDeltaSMetricQualityIndicator(points, title):
     DELTA = (df + dl + sumNorms) / (df + dl + (len(norms) * dAverage))
 
     hv = hypervolume(points)
-    ref_point = np.array([points[0][0], points[10][1]])#pg.nadir(points)
+    ref_point = np.array([1700, 35])#
+    #ref_point = pg.nadir(points)
     sMetric = hv.compute(ref_point)
     plt.annotate('Nadir', (ref_point[0], ref_point[1]), color='black')
 

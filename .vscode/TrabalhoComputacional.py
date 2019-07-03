@@ -25,7 +25,7 @@ def main():
         [16.7, 1460.2],
         [17	 , 1620.2]
     ]
-
+    
     SpreadDeltaSMetricQualityIndicator(pointsMIPGAP0Dot05, "MTZ")
 
     pointsMIPGAP0Dot05 = [
